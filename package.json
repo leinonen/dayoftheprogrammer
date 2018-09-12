@@ -15,16 +15,13 @@
     "@babel/core": "^7.0.0-beta.40",
     "@babel/preset-env": "^7.0.0-beta.40",
     "babel-loader": "^8.0.0-beta.0",
-    "babel-plugin-ramda": "^1.6.1",
     "file-loader": "^1.1.6",
     "raw-loader": "^0.5.1",
     "webpack": "^3.11.0",
     "webpack-dev-server": "^2.11.1"
   },
   "babel": {
-    "plugins": [
-      "ramda"
-    ],
+    "plugins": [],
     "presets": [
       [
         "@babel/preset-env",
